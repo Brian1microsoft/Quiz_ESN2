@@ -56,7 +56,7 @@ public class Main {
         q5.correta ="B";
         questoes.add(q5);
 
-        Questap q6 = new Questao();
+        Questao q6 = new Questao();
         q6.pergunta = "6. Qual a capital de Grécia ?";
         q6.opcaoA = "a. Esparta";
         q6.opcaoA = "b. Roma";
@@ -66,7 +66,7 @@ public class Main {
         q6.correta = "C";
         questoes.add(q6);
 
-        Questap q7 = new Questao();
+        Questao q7 = new Questao();
         q7.pergunta = "7. Qual desses pontos é considerado o ponto mais profundo do mundo ?";
         q7.opcaoA = "a. Fossa das Marianas ";
         q7.opcaoB = "b. Fossa de Java ";
@@ -76,7 +76,7 @@ public class Main {
         q7.correta = "A";
         questoes.add(q7);
 
-        Questap q8 = new Questao();
+        Questao q8 = new Questao();
         q8.pergunta = "8. Qual das opções abaixo não é considerado uma das 7 maravilha do mundo ?";
         q8.opcaoA = "a. Cristo Redentor ";
         q8.opcaoB = "b. Taj Mahal ";
@@ -86,7 +86,7 @@ public class Main {
         q8.correta = "D";
         questoes.add(q8);
 
-        Questap q9 = new Questao();
+        Questao q9 = new Questao();
         q9.pergunta = "9. Qual é o bioma mais predominante no território nacional ?";
         q9.opcaoA = "a. Cerrado";
         q9.opcaoB = "b. Caatinga";
@@ -97,7 +97,7 @@ public class Main {
         questoes.add(q9);
 
         
-        Questap q10 = new Questao();
+        Questao q10 = new Questao();
         q10.pergunta = "10. Em qual camaada da Terra os seres humanos habitam ?";
         q10.opcaoA = "a. Núcleo Interno";
         q10.opcaoB = "b. Núcleo Externo";
@@ -107,7 +107,7 @@ public class Main {
         q10.correta = "D";
         questoes.add(q10);
 
-        Questap q11 = new Questao();
+        Questao q11 = new Questao();
         q11.pergunta = "Em qual ano a Guerra Fria acabou ?";
         q11.opcaoA = "a. 1976 ";
         q11.opcaoB = "b. 1991 ";
@@ -117,7 +117,7 @@ public class Main {
         q11.correta = "B";
         questoes.add(q11);
 
-        Questap q12 = new Questao();
+        Questao q12 = new Questao();
         q12.pergunta = " De qual Bloco Econômico o Brasil é Integrente ?";
         q12.opcaoA = "a. Mercosul";
         q12.opcaoB = "b. União Europeia";
@@ -127,7 +127,7 @@ public class Main {
         q12.correta = "A";
         questoes.add(q12);
 
-        Questap q13 = new Questao();
+        Questao q13 = new Questao();
         q13.pergunta = "Em que ano ocorreu o Brexit(saída do Reino Unido da UE) ?";
         q13.opcaoA = "a. 2016";
         q13.opcaoB = "b. 2020";
@@ -137,7 +137,7 @@ public class Main {
         q13.correta = "B";
         questoes.add(q13);
 
-        Questap q14 = new Questao();
+        Questao q14 = new Questao();
         q14.pergunta = "Qual a única bandeira do mundo que não é retangular ?";
         q14.opcaoA = "a. Vaticano";
         q14.opcaoB = "b. Suiça";
@@ -147,7 +147,7 @@ public class Main {
         q14.correta = "E";
         questoes.add(q14);
 
-        Questap q15 = new Questao();
+        Questao q15 = new Questao();
         q15.pergunta = "Qual desses Sistemas Socio-Econômicos, é o utilizado nos Estados Unidos";
         q15.opcaoA = "a. Feudalismo";
         q15.opcaoB = "b. Socialismo";
