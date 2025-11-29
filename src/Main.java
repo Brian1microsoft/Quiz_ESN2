@@ -36,7 +36,6 @@ public class Main {
         q3.correta ="C";
         questoes.add(q3);
 
-
         Questao q4 = new Questao();
         q4.pergunta ="4. Qual é a maior cidade do Japão ?";
         q4.opcaoA ="a. Tokyo";
@@ -47,9 +46,8 @@ public class Main {
         q4.correta ="A";
         questoes.add(q4);
 
-
         Questao q5 = new Questao();
-        q5.pergunta ="5. Quais são as cores usadas na Bandeira da Noruega? ";
+        q5.pergunta ="5. Quais são as cores usadas na Bandeira da Noruega ?";
         q5.opcaoA ="a. Azul, Amarelo e preto";
         q5.opcaoB ="b. Azul, Vermelho e Branco";
         q5.opcaoC ="c. Vermelho, Laranja e Preto";
@@ -57,6 +55,108 @@ public class Main {
         q5.opcaoE ="e. Branco, Cinza e Vermelho";
         q5.correta ="B";
         questoes.add(q5);
+
+        Questap q6 = new Questao();
+        q6.pergunta = "6. Qual a capital de Grécia ?";
+        q6.opcaoA = "a. Esparta";
+        q6.opcaoA = "b. Roma";
+        q6.opcaoA = "c. Athenas";
+        q6.opcaoA = "d. Tripolis";
+        q6.opcaoA = "e. Istambul";
+        q6.correta = "C";
+        questoes.add(q6);
+
+        Questap q7 = new Questao();
+        q7.pergunta = "7. Qual desses pontos é considerado o ponto mais profundo do mundo ?";
+        q7.opcaoA = "a. Fossa das Marianas ";
+        q7.opcaoB = "b. Fossa de Java ";
+        q7.opcaoC = "c. Fossa de Tonga ";
+        q7.opcaoD = "d. Fossa de Puerto Rico";
+        q7.opcaoE = "e. Litke Deep";
+        q7.correta = "A";
+        questoes.add(q7);
+
+        Questap q8 = new Questao();
+        q8.pergunta = "8. Qual das opções abaixo não é considerado uma das 7 maravilha do mundo ?";
+        q8.opcaoA = "a. Cristo Redentor ";
+        q8.opcaoB = "b. Taj Mahal ";
+        q8.opcaoC = "c. Chichén Itzá";
+        q8.opcaoD = "d. Estátua da Liberdade";
+        q8.opcaoE = "e. Machu Picchu";
+        q8.correta = "D";
+        questoes.add(q8);
+
+        Questap q9 = new Questao();
+        q9.pergunta = "9. Qual é o bioma mais predominante no território nacional ?";
+        q9.opcaoA = "a. Cerrado";
+        q9.opcaoB = "b. Caatinga";
+        q9.opcaoC = "c. Pampa";
+        q9.opcaoD = "d. Amazônia ";
+        q9.opcaoE = "e. Pantanal";
+        q9.correta = "D";
+        questoes.add(q9);
+
+        
+        Questap q10 = new Questao();
+        q10.pergunta = "10. Em qual camaada da Terra os seres humanos habitam ?";
+        q10.opcaoA = "a. Núcleo Interno";
+        q10.opcaoB = "b. Núcleo Externo";
+        q10.opcaoC = "c. Exosfera";
+        q10.opcaoD = "d. Crosta Terrestre";
+        q10.opcaoE = "e. Manto";
+        q10.correta = "D";
+        questoes.add(q10);
+
+        Questap q11 = new Questao();
+        q11.pergunta = "Em qual ano a Guerra Fria acabou ?";
+        q11.opcaoA = "a. 1976 ";
+        q11.opcaoB = "b. 1991 ";
+        q11.opcaoC = "c. 1984";
+        q11.opcaoD = "d. 1964";
+        q11.opcaoE = "e. 1917";
+        q11.correta = "B";
+        questoes.add(q11);
+
+        Questap q12 = new Questao();
+        q12.pergunta = " De qual Bloco Econômico o Brasil é Integrente ?";
+        q12.opcaoA = "a. Mercosul";
+        q12.opcaoB = "b. União Europeia";
+        q12.opcaoC = "c. Cei";
+        q12.opcaoD = "d. Pacto Andino";
+        q12.opcaoE = "e. Asean";
+        q12.correta = "A";
+        questoes.add(q12);
+
+        Questap q13 = new Questao();
+        q13.pergunta = "Em que ano ocorreu o Brexit(saída do Reino Unido da UE) ?";
+        q13.opcaoA = "a. 2016";
+        q13.opcaoB = "b. 2020";
+        q13.opcaoC = "c. 1998";
+        q13.opcaoD = "d. 2012";
+        q13.opcaoE = "e. 2018";
+        q13.correta = "B";
+        questoes.add(q13);
+
+        Questap q14 = new Questao();
+        q14.pergunta = "Qual a única bandeira do mundo que não é retangular ?";
+        q14.opcaoA = "a. Vaticano";
+        q14.opcaoB = "b. Suiça";
+        q14.opcaoC = "c. Bangladesh";
+        q14.opcaoD = "d. Paquistão";
+        q14.opcaoE = "e. Nepal";
+        q14.correta = "E";
+        questoes.add(q14);
+
+        Questap q15 = new Questao();
+        q15.pergunta = "Qual desses Sistemas Socio-Econômicos, é o utilizado nos Estados Unidos";
+        q15.opcaoA = "a. Feudalismo";
+        q15.opcaoB = "b. Socialismo";
+        q15.opcaoC = "c. Comunismo";
+        q15.opcaoD = "d. Anarquismo";
+        q15.opcaoE = "e. Capitalismo";
+        q15.correta = "E";
+        questoes.add(q15);
+
 
         for (int i = 0; i < questoes.size(); i++) {
             System.out.println("----------------------------------------");
